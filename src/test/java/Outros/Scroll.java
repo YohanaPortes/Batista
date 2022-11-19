@@ -13,7 +13,6 @@ public class Scroll extends Metodos{
 	
 	Elementos elem = new Elementos();
 	
-
 	@Before
 	public void setUp() throws Exception {
 		iniciarTeste("https://automacaocombatista.herokuapp.com/outros/scroll");
@@ -30,5 +29,4 @@ public class Scroll extends Metodos{
 		screnShot("Scroll");
 		
 	}
-
 }
