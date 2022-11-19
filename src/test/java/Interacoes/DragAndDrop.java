@@ -25,11 +25,9 @@ public class DragAndDrop{
 		WebElement elementoB = driver.findElement(By.id("dropzone"));
 		acao.dragAndDrop(elementoA, elementoB).perform();
 		
-		
 		TakesScreenshot screnShot = ((TakesScreenshot) driver);
 		File scrFile = screnShot.getScreenshotAs(OutputType.FILE);
 		File destFile = new File("./src/evidencias/DragAndDrop.png");
 		FileUtils.copyFile(scrFile, destFile);
 	}
-
 }
