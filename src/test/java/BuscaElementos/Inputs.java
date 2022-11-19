@@ -12,11 +12,9 @@ import Metodos.Metodos;
 
 public class Inputs extends Metodos {
 
-	
 	@Before
 	public void setUp() throws Exception {
 		iniciarTeste("https://automacaocombatista.herokuapp.com/buscaelementos/inputsetextfield");
-		
 	}
 
 	@After
@@ -49,5 +47,4 @@ public class Inputs extends Metodos {
 		
 		clique(getBotaoVoltar());
 	}
-
 }
